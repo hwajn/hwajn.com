@@ -1,0 +1,64 @@
+body {background-color: #ffffff;
+      padding-left:50px;
+      overflow-x:none;
+}
+
+sup, sub {vertical-align:baseline;
+      position:relative;
+      top:-0.4em;
+      }
+
+sub {
+      top:0.4em;
+      }
+
+
+.sitedescription {
+      font-family: kazimirtext, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      padding-top:50px;
+      color:transparent;
+      z-index:1000;
+      width:2000px;
+background:linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+      
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: rgb(50, 60, 205);
+      }
+      
+.selfdescription {
+      font-family: mr-eaves-sans, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      padding-bottom:30px;
+      color:rgb(50, 60, 205);
+      z-index:1000;
+      }
+
+.compositions {
+      font-family: mr-eaves-sans, sans-serif;
+      font-weight: 300;
+      font-style:normal;          
+      }
+
+
+
+.cs-sc {
+      font-style: small-caps;
+      }
+
+.bodyparagraph {
+      width: 500px;
+      }
+
+.vid {
+      width:500px;
+      }
+
+.mag {
+      width: 500px; 
+      }
+
+.poster {width:500px;}
