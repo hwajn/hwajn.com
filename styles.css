@@ -37,7 +37,7 @@ div.selfdescription {
   font-size:13pt;
     letter-spacing:.75pt;line-height:15pt;}
 .spacer{
-      height:200px;
+      height:100px;
       width:100px;
       position:static;
 }
@@ -69,7 +69,13 @@ font-family:aktiv;
 
 button{border:none; background-color:blue;color:white;
 border-radius:50%; position:relative;}
-button:active {background-color:red;}
+button:active {background-color:red;color:white!important;}
+button:hover{background-color:red;color:white;}
+
+a:hover {color:cyan;}
+a:visited {color:blue;}
+a::before{color:purple;}
+
 .main{font-family:aktivitalic;
       letter-spacing:.7pt}
 .description {
