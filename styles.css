@@ -1,4 +1,8 @@
-body {height: 100%;}
+@media only screen and (min-width: 600px) {
+
+    
+
+body {}
 
 @font-face {
       font-family: minipax;
@@ -39,6 +43,8 @@ div.selfdescription {
       text-align:center;
   font-size:13pt;
     letter-spacing:.75pt;line-height:15pt;}
+
+    .resume {position:sticky;top:20px;transform:translate(-50px); color:white;word-wrap:normal;width:140px;height:25px;text-align:center;vertical-align:middle;margin-bottom:2px; border-radius:30px 30px 30px 30px;font-family:minipax;background-color:blue;}
 .spacer{
       height:100px;
       width:100px;
@@ -71,10 +77,11 @@ font-family:aktiv;
 
 
 button{border:none; background-color:blue;color:white;
-border-radius:50%; position:relative;}
+border-radius:50%; position:relative; margin-top:3px;margin-bottom:10px;}
 button:active {background-color:red;color:white!important;}
 button:hover{background-color:red;color:white;}
 
+a {cursor:pointer;}
 a:hover {color:cyan;}
 a:visited {color:blue;}
 a::before{color:purple;}
@@ -211,4 +218,264 @@ background:linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)
 
 .poster {width:500px;}
 
-*/
+*/}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+
+    
+
+      body {100%}
+      
+      @font-face {
+            font-family: minipax;
+            src: url("Minipax-Regular.eot");
+            src: url("Minipax-Regular.woff");
+            src: url("Minipax-Regular.woff2");
+            src: url("Minipax-Regular.ttf");
+        }
+        @font-face {
+            font-family: aktiv;
+            src: url("AktivGroteskCorp-Regular.eot");
+            src: url("AktivGroteskCorp-Regular.woff");
+            src: url("AktivGroteskCorp-Regular.woff2");
+            src: url("AktivGroteskCorp-Regular.ttf");
+        }
+      
+        @font-face {
+            font-family: aktivitalic;
+            src: url("AktivGroteskCorp-MediumItalic.eot");
+            src: url("AktivGroteskCorp-MediumItalic.woff");
+            src: url("AktivGroteskCorp-MediumItalic.woff2");
+            src: url("AktivGroteskCorp-MediumItalic.ttf");
+        }
+      
+        img {
+            border: 1px black solid;
+            display:block;
+        }
+      
+      div.sitedescription {
+        font-size:60pt;
+          letter-spacing: 2pt;
+        top: 0;
+        /*position: -webkit-sticky*/
+      text-align:center;}
+      
+      div.selfdescription {
+            text-align:center;
+        font-size:13pt;
+          letter-spacing:.75pt;line-height:15pt;}
+      
+          .resume {position:sticky;top:20px;transform:translate(-50px); color:white;word-wrap:normal;width:140px;height:25px;text-align:center;vertical-align:middle;margin-bottom:2px; border-radius:30px 30px 30px 30px;font-family:minipax;background-color:blue;}
+      .spacer{
+            height:100px;
+            width:100px;
+            position:static;
+      }
+      
+      .composition {
+      position:static;
+      display:inline-block;
+      width:100%;
+      background-color:none;
+      height:100%;
+      font-family:aktiv;
+      
+      }
+      
+      .image {
+            right:50vw;
+            height:100%;
+            position:absolute;
+            background-color:none;
+            display:block;
+      }
+      .anotherimg {
+            position:absolute;
+            left:-50px;
+            width:fit-content;
+      }
+      
+      
+      
+      button{border:none; background-color:blue;color:white;
+      border-radius:50%; position:relative; margin-top:3px;margin-bottom:10px;}
+      button:active {background-color:red;color:white!important;}
+      button:hover{background-color:red;color:white;}
+      
+      a {cursor:pointer;}
+      a:hover {color:cyan;}
+      a:visited {color:blue;}
+      a::before{color:purple;}
+      
+      .main{font-family:aktivitalic;
+            letter-spacing:.7pt}
+      .description {
+            background-color:none;
+          color:black;
+          width:450px;
+          height:100%;
+          position:relative;
+          top:0;
+          left:50vw;
+          line-height:24px;
+          letter-spacing: 1.5px;
+          font-size:13pt;
+      }
+      
+      /*
+      div.compositions {
+        font-size:14pt;
+          letter-spacing:.5pt;
+        width:500px;}
+      
+      button {background-color:transparent;border-color:transparent;text-decoration: underline 1px rgb(50, 60, 205);color:rgb(50, 60, 205);font-size:30pt;}
+      
+      div.mybox {
+          border: none;
+          width: auto;
+          border-right:10px;
+          height:280px;
+        
+          overflow-y:overlay;
+      overflow-x:hidden;
+      
+        }
+      /*
+      
+          /* Scrollbar styles */
+          ::-webkit-scrollbar {
+          width: 12px;
+          height: 12px;
+      ;
+          }
+      
+          ::-webkit-scrollbar-track {
+          border: 1px solid rgb(255, 255, 255);
+          padding-right:10px;
+          border-radius: 10px;
+          opacity:.5;
+          
+          }
+      
+          ::-webkit-scrollbar-thumb {
+          background:  rgb(50, 60, 205);  
+          border-radius: 10px;
+          }
+      
+          ::-webkit-scrollbar-thumb:hover {
+          background: #88ba1c;  
+          }
+      
+      .img img{border: 1px solid black;}
+      
+      
+      .cs-sc {    font-size:16pt;}
+      
+      
+      body {background-color: #ffffff;
+            padding-left:50px;
+            overflow-x:none;
+      }
+      
+      sup, sub {vertical-align:baseline;
+            position:relative;
+            top:-0.4em;
+            }
+      
+      sub {
+            top:0.4em;
+            }
+      
+      
+      .sitedescription {
+            font-family: minipax, sans-serif;
+          /*  position:fixed;*/
+            
+            font-weight: 500;
+            font-style: normal;
+            padding-top:50px;
+            color:transparent;
+        /*    z-index:1000;
+            width:2000px;
+      background:linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));*/
+            
+            -webkit-text-fill-color: white;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgb(50, 60, 205);
+            }
+            
+      .selfdescription {
+            font-family: minipax, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            padding-bottom:30px;
+            color:rgb(50, 60, 205);
+            z-index:1000;
+            }
+      /*
+      .compositions {
+            font-family: mr-eaves-sans, sans-serif;
+            font-weight: 300;
+            font-style:normal;          
+            }
+      
+      
+      
+      .cs-sc {
+            font-style: small-caps;
+            }
+      
+      .bodyparagraph {
+            width: 500px;
+            }
+      
+      .vid {
+            width:500px;
+            }
+      
+      .mag {
+            width: 500px; 
+            }
+      
+      .poster {width:500px;}
+      
+      */}
+      
+      
