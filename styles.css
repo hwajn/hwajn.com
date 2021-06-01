@@ -17,10 +17,10 @@ body {height: 100%;}
 
   @font-face {
       font-family: aktivitalic;
-      src: url("AktivGroteskCorp-Mediumitalic.eot");
-      src: url("AktivGroteskCorp-Mediumitalic.woff");
-      src: url("AktivGroteskCorp-Mediumitalic.woff2");
-      src: url("AktivGroteskCorp-Mediumitalic.ttf");
+      src: url("AktivGroteskCorp-MediumItalic.eot");
+      src: url("AktivGroteskCorp-MediumItalic.woff");
+      src: url("AktivGroteskCorp-MediumItalic.woff2");
+      src: url("AktivGroteskCorp-MediumItalic.ttf");
   }
 
   img {
