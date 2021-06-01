@@ -5,12 +5,14 @@ body {height: 100%;}
       src: url("Minipax-Regular.eot");
       src: url("Minipax-Regular.woff");
       src: url("Minipax-Regular.woff2");
+      src: url("Minipax-Regular.ttf");
   }
   @font-face {
       font-family: aktiv;
       src: url("AktivGroteskCorp-Regular.eot");
       src: url("AktivGroteskCorp-Regular.woff");
       src: url("AktivGroteskCorp-Regular.woff2");
+      src: url("AktivGroteskCorp-Regular.ttf");
   }
 
   @font-face {
@@ -18,6 +20,7 @@ body {height: 100%;}
       src: url("AktivGroteskCorp-Mediumitalic.eot");
       src: url("AktivGroteskCorp-Mediumitalic.woff");
       src: url("AktivGroteskCorp-Mediumitalic.woff2");
+      src: url("AktivGroteskCorp-Mediumitalic.ttf");
   }
 
   img {
